@@ -1,8 +1,16 @@
 aid: arta
 name: Arta
-description: 'Arta is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Arta Finance (Arta Finance Wealth Management LLC) is a global digital wealth
+  management platform that gives accredited investors and professionals from leading technology
+  companies access to sophisticated investment strategies historically reserved for the ultra-wealthy
+  and institutions. Its products include a High-Yield Cash Reserve (an automated U.S. Treasuries
+  portfolio), curated private-market funds spanning private equity, private credit, real estate,
+  venture capital and hedge funds, bespoke structured investments, private placement life insurance,
+  and AI-assisted portfolio tools (AI for Wealth). Founded by former Google executives and backed
+  by Ribbit Capital and other venture investors, Arta is an SEC-registered investment adviser (with
+  a Singapore entity regulated by the Monetary Authority of Singapore), with clearing and custody
+  provided by Pershing LLC. Arta operates as a consumer/member wealth application and does not
+  publish a public developer API, SDKs, or MCP surface.'
 url: https://raw.githubusercontent.com/api-evangelist/arta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,30 @@ x-backed-by:
 - ribbit-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://artafinance.com/icons/icon-512x512.png
 tags:
 - Company
 - Fintech
+- Wealth Management
+- Investing
+- Private Markets
+- Alternative Investments
+- Financial Services
+- Investment Adviser
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://arta.finance
+  url: https://www.artafinance.com
+- type: About
+  url: https://www.artafinance.com/about
+- type: Blog
+  url: https://www.artafinance.com/insights
+- type: Support
+  url: https://faq.artafinance.com
+- type: SignUp
+  url: https://www.artafinance.com/sign-up
+- type: Login
+  url: https://app.artafinance.com
+- type: PrivacyPolicy
+  url: https://www.artafinance.com/privacy-policy
+- type: TermsOfService
+  url: https://www.artafinance.com/terms-of-service
+- type: Disclosures
+  url: https://www.artafinance.com/disclosures
+- type: LinkedIn
+  url: https://www.linkedin.com/company/arta-finance/
+- type: DomainSecurity
+  url: security/arta-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
